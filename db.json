@@ -1,0 +1,129 @@
+{
+  "orders": [
+    {
+      "id": "b95f",
+      "products": [
+        {
+          "title": "Headphones",
+          "price": 89.99,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        }
+      ],
+      "user": {
+        "name": "Rustam ",
+        "phone": "(50) 752 81 18",
+        "comment": "sadadasd"
+      },
+      "date": "2025-06-20T13:06:24.206Z"
+    },
+    {
+      "id": "661a",
+      "products": [
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Headphones",
+          "price": 89.99,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+        }
+      ],
+      "user": {
+        "name": "Rustam",
+        "phone": "+998 111 111111",
+        "comment": "lml,;."
+      },
+      "date": "2025-06-20T13:17:50.973Z"
+    },
+    {
+      "id": "34d6",
+      "products": [
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        }
+      ],
+      "user": {
+        "name": "sad",
+        "phone": "+998 99 287 79 71",
+        "comment": "asdasdasdasdasd"
+      },
+      "date": "2025-06-20T13:19:54.120Z"
+    },
+    {
+      "id": "14ae",
+      "products": [
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Headphones",
+          "price": 89.99,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+        },
+        {
+          "title": "Backpack",
+          "price": 49.99,
+          "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+        }
+      ],
+      "user": {
+        "name": "sadadad",
+        "phone": "+998507528118",
+        "comment": "asdadadasd"
+      },
+      "date": "2025-06-20T13:21:45.061Z"
+    },
+    {
+      "id": "9238",
+      "products": [
+        {
+          "title": "Running Shoes",
+          "price": 69.99,
+          "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+          "title": "Headphones",
+          "price": 89.99,
+          "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+        }
+      ],
+      "user": {
+        "name": "sad",
+        "phone": "+998 99 287 79 71",
+        "comment": "sadad"
+      },
+      "date": "2025-06-20T13:29:47.792Z"
+    }
+  ]
+}

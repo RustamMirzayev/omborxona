@@ -1,0 +1,40 @@
+<div class="min-h-screen p-6 bg-gray-100">
+  <h2 class="text-2xl font-bold mb-4 text-indigo-700">📦 Ombor Buyurtmalari</h2>
+
+  <ng-container *ngIf="orders$ | async as orders; else loading">
+    <table *ngIf="orders.length > 0; else empty" class="w-full bg-white rounded shadow">
+      <thead class="bg-indigo-600 text-white">
+        <tr>
+          <th class="p-3 text-left">#</th>
+          <th class="p-3 text-left">Ism</th>
+          <th class="p-3 text-left">Telefon</th>
+          <th class="p-3 text-left">Kommentariya</th>
+          <th class="p-3 text-left">Mahsulotlar</th>
+          <th class="p-3 text-left">Sana</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders; index as i" class="border-t hover:bg-gray-50">
+          <td class="p-3">{{ i + 1 }}</td>
+          <td class="p-3 font-semibold">{{ order.user?.name }}</td>
+          <td class="p-3">{{ order.user?.phone }}</td>
+          <td class="p-3 text-sm text-gray-600">{{ order.user?.comment }}</td>
+          <td class="p-3">
+            <ul class="list-disc pl-4 text-sm text-gray-700">
+              <li *ngFor="let p of order.products">{{ p.title }} - ${{ p.price }}</li>
+            </ul>
+          </td>
+          <td class="p-3 text-sm text-gray-500">{{ order.date }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </ng-container>
+
+  <ng-template #loading>
+    <div class="text-gray-500">⏳ Yuklanyapti...</div>
+  </ng-template>
+
+  <ng-template #empty>
+    <div class="text-gray-500 mt-5">Hech qanday buyurtma topilmadi.</div>
+  </ng-template>
+</div>
