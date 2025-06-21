@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabelModule } from 'primeng/floatlabel';
 import { PasswordModule } from 'primeng/password';
 import { ButtonModule } from 'primeng/button';
-import { NgClass, NgStyle } from '@angular/common';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-login',
@@ -15,8 +15,8 @@ import { NgClass, NgStyle } from '@angular/common';
     FloatLabelModule,
     PasswordModule,
     ButtonModule,
-    NgStyle,
-    NgClass
+    NgClass,
+    RouterModule
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',
