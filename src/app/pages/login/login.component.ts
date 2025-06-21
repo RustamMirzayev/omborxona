@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Router, RouterModule } from '@angular/router';
+import { Router } from '@angular/router';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabelModule } from 'primeng/floatlabel';
 import { PasswordModule } from 'primeng/password';
@@ -15,8 +15,7 @@ import { NgClass } from '@angular/common';
     FloatLabelModule,
     PasswordModule,
     ButtonModule,
-    NgClass,
-    RouterModule
+    NgClass
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',
@@ -27,7 +26,7 @@ export class LoginComponent {
   showPassword: boolean = false;
 
   // Qo'lda belgilangan login va parol
-  readonly correctUsername = 'admin';
+  readonly correctUsername = 'alisher';
   readonly correctPassword = '1234';
 
   constructor(private router: Router) {}

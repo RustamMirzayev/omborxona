@@ -2,10 +2,11 @@ import { NgFor, NgIf } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { OrderService } from '../../services/order.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-products',
-  imports: [FormsModule, NgFor, NgIf],
+  imports: [FormsModule, NgFor, NgIf, RouterModule],
   templateUrl: './products.component.html',
   styleUrl: './products.component.scss',
 })
