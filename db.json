@@ -1,3 +1,30 @@
 {
-  "orders": []
+  "orders": [
+    {
+      "id": "db12",
+      "products": [
+        {
+          "title": "Disk",
+          "price": 199.99,
+          "image": "images/img1.png"
+        },
+        {
+          "title": "Arra",
+          "price": 49.99,
+          "image": "images/img2.png"
+        },
+        {
+          "title": "Bolg'a",
+          "price": 89.99,
+          "image": "images/img3.png"
+        }
+      ],
+      "user": {
+        "name": "Rustam ",
+        "phone": "+998507528118",
+        "comment": "optom narxda zakaz bor"
+      },
+      "date": "2025-06-21T07:52:06.020Z"
+    }
+  ]
 }
