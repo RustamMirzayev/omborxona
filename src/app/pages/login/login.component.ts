@@ -1,17 +1,30 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from 'primeng/floatlabel';
+import { PasswordModule } from 'primeng/password';
+import { ButtonModule } from 'primeng/button';
+import { NgClass, NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-login',
-  imports: [FormsModule],
+  imports: [
+    FormsModule,
+    InputTextModule,
+    FloatLabelModule,
+    PasswordModule,
+    ButtonModule,
+    NgStyle,
+    NgClass
+  ],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+  styleUrl: './login.component.scss',
 })
 export class LoginComponent {
-
   username: string = '';
   password: string = '';
+  showPassword: boolean = false;
 
   // Qo'lda belgilangan login va parol
   readonly correctUsername = 'admin';
@@ -29,6 +42,4 @@ export class LoginComponent {
       alert('Login yoki parol noto‘g‘ri!');
     }
   }
-
-  
 }

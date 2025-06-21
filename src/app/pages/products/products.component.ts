@@ -25,24 +25,24 @@ export class ProductsComponent {
 
   products = [
     {
-      title: 'Smart Watch',
+      title: 'Disk',
       price: 199.99,
-      image: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
+      image: 'images/img1.png',
     },
     {
-      title: 'Backpack',
+      title: 'Arra',
       price: 49.99,
-      image: 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg',
+     image: 'images/img2.png',
     },
     {
-      title: 'Headphones',
+      title: "Bolg'a",
       price: 89.99,
-      image: 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg',
+      image: 'images/img3.png',
     },
     {
-      title: 'Running Shoes',
+      title: 'Kusachki',
       price: 69.99,
-      image: 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg',
+      image: 'images/img4.png',
     },
   ];
 
